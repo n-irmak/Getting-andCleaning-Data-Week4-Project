@@ -54,5 +54,5 @@ second_tidy_data <- tidy_data %>%
 
 #Writing data to txt file
 
-write.table(second_tidy_data,file="TidyData.txt")
+write.table(second_tidy_data,file="TidyData.txt",row.name=FALSE)
 
